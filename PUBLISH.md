@@ -71,3 +71,34 @@ GitHub Settings → Profile：
 - 修改 README 直接编辑 `LS-plan/LS-plan` 仓库的 `README.md` 并 push
 - 蛇形图无需人工维护，每天自动刷新
 - 当出现新代表项目时，回到 `## 🚀 代表项目` 区块替换或追加
+
+---
+
+## 数据看板自部署（国内访问稳定方案）
+
+公共服务 `github-readme-stats.vercel.app` 在国内可能被限流或 GitHub camo 抓取失败，导致 Stats / Top Languages 卡片空白。
+最稳的修法是把 github-readme-stats fork 到自己账号下并部署到 Vercel，**5 分钟搞定**。
+
+### 步骤
+
+1. 打开 <https://github.com/anuraghazra/github-readme-stats>，点 **Fork** 到 `LS-plan` 账号下
+2. 打开 <https://vercel.com>，用 GitHub 账号登录 → **Add New → Project**
+3. 选择刚 fork 的 `github-readme-stats` 仓库 → **Import**
+4. （可选）创建 GitHub PAT 以支持私有仓库统计：
+   - <https://github.com/settings/tokens?type=beta> 生成 fine-grained token，权限只勾 `Public Repositories (read-only)`
+   - Vercel 项目 Settings → Environment Variables → 新建 `PAT_1` = 上面的 token
+5. 直接 **Deploy**，等待约 1 分钟，得到形如 `https://github-readme-stats-<random>.vercel.app` 的域名
+6. 进入 Vercel 项目 Settings → Domains，可以自定义子域名（例如 `lsstats.vercel.app`）
+7. 修改 `LS-plan/LS-plan` 的 `README.md`，把两处 `github-readme-stats.vercel.app` 替换成你的部署域名，push
+
+### 替换示例
+
+```diff
+- <img height="165" src="https://github-readme-stats.vercel.app/api?username=LS-plan&..." />
++ <img height="165" src="https://lsstats.vercel.app/api?username=LS-plan&..." />
+
+- <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LS-plan&..." />
++ <img height="165" src="https://lsstats.vercel.app/api/top-langs/?username=LS-plan&..." />
+```
+
+> Streak 卡片走 Heroku，国内基本稳，无需自部署。

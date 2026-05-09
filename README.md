@@ -11,9 +11,10 @@
 通信电子背景出身，目前关注智能体工作流、AI 工具链与面向科研的 AI4S 应用。
 喜欢把研究问题拆成可复用的工具，并在工程化中持续打磨它们。
 
-[![Profile Views](https://komarev.com/ghpvc/?username=LS-plan\&label=Profile%20Views\&color=0e75b6\&style=flat)](https://github.com/LS-plan)
-[![Personal Site](https://img.shields.io/badge/Site-ls--plan.github.io-2ea44f?style=flat\&logo=githubpages\&logoColor=white)](https://ls-plan.github.io)
-[![Email](https://img.shields.io/badge/Email-shuyus616%40163.com-D14836?style=flat\&logo=maildotru\&logoColor=white)](mailto:shuyus616@163.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=LS-plan&label=Profile%20Views&color=0e75b6&style=flat)](https://github.com/LS-plan)
+[![Portal](https://img.shields.io/badge/Site-nobodyls.cn-2ea44f?style=flat&logo=hexo&logoColor=white)](https://nobodyls.cn)
+[![Blog](https://img.shields.io/badge/Blog-blog.nobodyls.cn-1f6feb?style=flat&logo=githubpages&logoColor=white)](https://blog.nobodyls.cn)
+[![Email](https://img.shields.io/badge/Email-shuyus616%40163.com-D14836?style=flat&logo=maildotru&logoColor=white)](mailto:shuyus616@163.com)
 
 ---
 
@@ -41,7 +42,7 @@
 
 > 持续迭代中，按近期活跃度排序；fork 仓库不在此处展示。
 
-* 🌐 [**ls-plan.github.io**](https://github.com/LS-plan/ls-plan.github.io) — 个人主页与博客，记录研究笔记、工具实践与阅读
+* 🌐 [**ls-plan.github.io**](https://github.com/LS-plan/ls-plan.github.io) — 个人博客源仓库，自定义域名 [blog.nobodyls.cn](https://blog.nobodyls.cn)，门户入口 [nobodyls.cn](https://nobodyls.cn)
 * 🤖 [**any-coder**](https://github.com/LS-plan/any-coder) — 围绕 AI 编程助手的实验性工具与脚本集合
 * ⚡ [**elecmon**](https://github.com/LS-plan/elecmon) — 电子/电力监测相关的小型工具实验
 * 📊 [**FBTI**](https://github.com/LS-plan/FBTI) — 数据可视化与展示页面原型
@@ -58,8 +59,15 @@
 
 ## 📊 数据看板
 
+<!--
+  说明：
+  下方 stats / top-langs 走 github-readme-stats 公共实例。
+  如果国内访问出现长期不显示，按 PUBLISH.md "数据看板自部署" 部分自建 Vercel 实例，
+  把下面两个 URL 中的 github-readme-stats.vercel.app 换成你自己的域名即可。
+-->
+
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=LS-plan&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=tokyonight" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=LS-plan&show_icons=true&hide_border=true&theme=tokyonight&card_width=460" alt="GitHub Stats" />
   <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=LS-plan&hide_border=true&theme=tokyonight" alt="GitHub Streak" />
 </p>
 
@@ -82,7 +90,8 @@
 ## 📮 联系方式
 
 * 📧 Email: [shuyus616@163.com](mailto:shuyus616@163.com)
-* 🌐 个人站点: [ls-plan.github.io](https://ls-plan.github.io)
+* 🌐 门户站点: [nobodyls.cn](https://nobodyls.cn)
+* ✍️ 博客: [blog.nobodyls.cn](https://blog.nobodyls.cn)
 * 🐙 GitHub: [@LS-plan](https://github.com/LS-plan)
 
 <sub>If you find any of my work useful, a ⭐ on the relevant repo is the best feedback. 谢谢支持。</sub>
