@@ -83,8 +83,6 @@
   <img alt="snake light" src="https://raw.githubusercontent.com/LS-plan/LS-plan/output/github-contribution-grid-snake.svg" />
 </p>
 
-> 由 GitHub Actions 自动生成，每日刷新。如长时间未更新，请检查 `output` 分支与 workflow 运行情况。
-
 ---
 
 ## 📮 联系方式
